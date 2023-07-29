@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/intro-page.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-body{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home, .quiz{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap:20px
+}
+
+.title{
+  color: #293264;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+}
+
+
+
+.home > p{
+  font-family: "Inter" , sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.blue-btn{
+  border-radius: 15px;
+  background-color: #4D5B9E;
+  outline: none;
+  border: 0px;
+  width: 190px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+
+  
+
+}
+
+.blue-btn:active{
+  box-shadow: inset 2px 3px 5px darkslateblue;
+}
+
+.quiz{
+  height: auto;
+  max-width: 900px;
+
+}
+
+.question{
+color: #293264;
+font-family: "Karla", sans-serif;
+font-size: 16px;
+font-weight: 700;
+margin: 20px;
+margin-left: 0px;
+}
+
+.answer{
+  max-width: 150px;
+  border-radius: 7px;
+  border: 0.5px solid #4D5B9E;
+
+  color: #293264;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+
+  display: inline;
+  margin: 10px;
+  margin-top: 30px;
+
+  cursor: pointer;
+
+}
+
+hr{
+  margin: 20px;
+}
+
+.score{
+  color: #293264;
+text-align: center;
+font-family: "Inter" sans-serif;
+font-size: 20px;
+font-weight: 700;
+display: inline;
+
+}
